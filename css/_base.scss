@@ -1,0 +1,276 @@
+body
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+
+    &.is-visible
+    {
+        opacity: 1;
+        visibility: visible;
+        transition: all .4s;
+    }
+
+    &.is-locked { overflow: hidden; }
+}
+
+.container
+{
+    margin: auto;
+    @include breakpoint(max, 750px) {
+        max-width: 100% !important;
+    };
+}
+
+.mb-custom-p
+{
+    //margin-bottom: 100vh;
+}
+
+section
+{
+   //min-height: 100vh; 
+}
+
+section.section0,
+section.section10
+{
+    height: 100vh;
+}
+
+// section.section1
+// {
+//     height: 1px;
+// }
+
+.gradient 
+{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8));
+    @include breakpoint(min, medium) {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.8));
+    }; 
+}
+.gradient2
+{
+    background: rgba(0, 0, 0, .75);
+}
+
+
+body {
+    min-height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+html {
+    height: fill-available;
+    height: -webkit-fill-available;
+}
+
+.swiper
+{
+    height: 100vh;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+}
+
+// .textbox
+// {
+//     background: transparent;
+//     @include breakpoint(min, medium) {
+//         background:rgba(0, 0, 0, .25);
+//     }; 
+// }
+
+section.section0 .textbox,
+section.section10 .textbox
+{
+    //background: rgba(255, 255, 255, 0.1);
+}
+
+// .text-container
+// {
+//     height: 100vh;
+//     min-height: fill-available;
+//     min-height: -webkit-fill-available;
+// }
+
+// .lol
+// {
+//     opacity: .5;
+// }
+
+//HERO
+#swiper-slide-00
+{
+    background: #3a3a3a;
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+//FOULE
+#swiper-slide-01
+{
+    background-color: rgb(131, 131, 131);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+// MSG ANDREOLI
+#swiper-slide-02
+{
+    // background-image:url('../img/this/ski_3.jpg');
+    background-color: rgb(131, 131, 131);
+    background-position: 70% center;
+
+    @include breakpoint(min, medium) {
+        background-position: center;
+    }; 
+}
+
+//TETE
+#swiper-slide-03
+{
+    background-color: rgb(174, 157, 157);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+//MSG PAREIN 
+#swiper-slide-04
+{
+    // background-image:url('../img/this/ski_5.jpg');
+    background-color: rgb(174, 157, 157);
+    background-position: 35% center;
+
+    @include breakpoint(min, medium) {
+        background-position: center;
+    }; 
+}
+
+//MUSEE
+#swiper-slide-05
+{
+    background-color: rgb(120, 121, 131);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+//TABLE
+#swiper-slide-06
+{
+    background-color: rgb(120, 137, 128);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+//MSG ANDREOLI 2
+#swiper-slide-07
+{
+    background-color: rgb(120, 137, 128);
+
+    @include breakpoint(min, medium) {
+        background-position: center;
+    }; 
+}
+
+//MSG TATONE
+#swiper-slide-08
+{
+    background-color: rgb(120, 137, 128);
+
+    @include breakpoint(min, medium) {
+        background-position: center;
+    }; 
+}
+
+//MSG ANDREOLI 3
+#swiper-slide-09
+{
+    // background-image:url('../img/this/ski_10.jpg');
+    background-color: rgb(120, 137, 128);
+    background-position: 35% center;
+
+    @include breakpoint(min, medium) {
+        background-position: center;
+    }; 
+}
+
+//AMIT IN
+#swiper-slide-10
+{
+    background-color: rgb(174, 157, 157);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center top;
+    // }; 
+}
+
+//MSG TATONE 2
+#swiper-slide-11
+{
+    background-color: rgb(120, 137, 128);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+#swiper-slide-13, #swiper-slide-21
+{
+    background-color: rgb(32, 33, 36);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center;
+    // }; 
+}
+
+
+
+//DIALOG
+#swiper-slide-14
+{
+    background-color: rgb(174, 157, 157);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center top;
+    // }; 
+}
+
+//POINTE DES PIEDS
+#swiper-slide-20
+{
+    background-color: rgb(120, 137, 128);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center top;
+    // }; 
+}
+
+//3 GUYS
+#swiper-slide-12
+{
+    background-color: rgb(162, 157, 164);
+
+    // @include breakpoint(min, medium) {
+    //     background-position: center top;
+    // }; 
+}
+
+.mouse 
+{
+    margin: auto;
+    @include breakpoint(min, medium) {
+        margin: initial;
+    }; 
+}
+

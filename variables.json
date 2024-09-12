@@ -1,0 +1,20 @@
+{
+	"title": " J’ai infiltré un forum cannibale ",
+	"description": "Certaines personnes sont très excitées sexuellement par l’idée de manger quelqu’un ou de se faire engloutir. Sur Internet, un forum donne vie à ces fantasmes...",
+	"authors": {
+		"prod": "Creative Lab Blick Suisse romande",
+		"photos": "Johanna Castellanos Dubuis",
+		"writer": "",
+		"dev": "César Greppin"
+	},
+	"imgSocial": "social.jpg",
+	"headertheme": "neg", 
+	"headerBoxed": false,
+	"pubDate": "2020-07-23T11:00:00+00:00",
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.blick.ch/"
+	},
+	"debugSlider": false
+}
+
