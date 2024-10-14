@@ -1,0 +1,13 @@
+<svg id="Groupe_186" data-name="Groupe 186" xmlns="http://www.w3.org/2000/svg" width="664" height="423" viewBox="0 0 664 423">
+  <rect id="bg" width="664" height="423" fill="none"/>
+  <g id="podium1" transform="translate(239 197.126)">
+    <g id="Groupe_185" data-name="Groupe 185">
+      <path id="Tracé_422" data-name="Tracé 422" d="M0,0H115L105,152H10Z" transform="translate(34 61)" fill="#191a1a" stroke="#29fdc1" stroke-linecap="round" stroke-width="2"/>
+      <path id="Tracé_420" data-name="Tracé 420" d="M0,0V118" transform="translate(91 81)" fill="none" stroke="#29fdc1" stroke-linecap="round" stroke-width="2"/>
+      <path id="Tracé_421" data-name="Tracé 421" d="M0,0V118" transform="translate(118 81)" fill="none" stroke="#29fdc1" stroke-linecap="round" stroke-width="2"/>
+      <path id="Tracé_419" data-name="Tracé 419" d="M0,0V118" transform="translate(64 81)" fill="none" stroke="#29fdc1" stroke-linecap="round" stroke-width="2"/>
+      <rect id="Rectangle_106" data-name="Rectangle 106" width="47" height="68" transform="translate(68 96)" fill="#191a1a"/>
+      <path id="Tracé_424" data-name="Tracé 424" d="M15.6,0H29.718V-54.6H19.812L.7-40.872l6.006,9.984,8.97-5.3L15.6-22.854Z" transform="translate(72 157)" fill="#29fdc1"/>
+    </g>
+  </g>
+</svg>

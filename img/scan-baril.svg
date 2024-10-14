@@ -1,0 +1,15 @@
+<svg id="Groupe_188" data-name="Groupe 188" xmlns="http://www.w3.org/2000/svg" width="541" height="541" viewBox="0 0 541 541">
+  <rect id="bg" width="541" height="541" fill="none"/>
+  <g id="scan-baril">
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(22 22)" fill="#191a1a" stroke="#29fdc1" stroke-width="2">
+      <circle cx="249" cy="249" r="249" stroke="none"/>
+      <circle cx="249" cy="249" r="248" fill="none"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(44 44)" fill="#191a1a" stroke="#29fdc1" stroke-width="2">
+      <circle cx="227" cy="227" r="227" stroke="none"/>
+      <circle cx="227" cy="227" r="226" fill="none"/>
+    </g>
+    <path id="Tracé_90" data-name="Tracé 90" d="M-310.919,1042.031c-11.418,56.069-14.026,84.415-4.779,127.558,5.745,14.828,20.273,6.8,18.638-3.519-13.556-45-2.224-100.239,4.841-120.124C-290.739,1034.011-306.461,1030.267-310.919,1042.031Z" transform="translate(330.997 -843.989)" fill="#191a1a" stroke="#29fdc1" stroke-width="2"/>
+    <path id="Tracé_91" data-name="Tracé 91" d="M10.384,7.157C-1.034,63.226-3.642,91.572,5.605,134.715c5.745,14.828,20.273,6.8,18.638-3.519-13.556-45-2.224-100.24,4.841-120.124C30.564-.862,14.842-4.606,10.384,7.157Z" transform="translate(532.55 349.247) rotate(180)" fill="#191a1a" stroke="#29fdc1" stroke-width="2"/>
+  </g>
+</svg>

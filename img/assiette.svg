@@ -1,0 +1,9 @@
+<svg id="Groupe_172" data-name="Groupe 172" xmlns="http://www.w3.org/2000/svg" width="541" height="535" viewBox="0 0 541 535">
+  <rect id="bg" width="541" height="535" fill="none"/>
+  <g id="Groupe_171" data-name="Groupe 171" transform="translate(51.587 47.104)">
+    <g id="assiette">
+      <path id="Tracé_305" data-name="Tracé 305" d="M535.175,288.752c0,133.245-108.913,242.871-239.6,256.316a263.567,263.567,0,0,1-56.983-.325C109.252,529.94,2,420.978,2,288.752,2,146.43,104.189,31.9,280.75,31.9,423.076,31.9,535.175,146.43,535.175,288.752Z" transform="translate(-50.587 -65.455)" fill="none" stroke="#29fdc1" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Tracé_307" data-name="Tracé 307" d="M592.029,415.324c0,109.607-77.014,198.46-198.46,198.46-128.851,0-198.46-88.854-198.46-198.46s88.854-188.517,198.46-188.517S592.029,305.718,592.029,415.324Z" transform="translate(-175.569 -191.601)" fill="none" stroke="#29fdc1" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

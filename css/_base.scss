@@ -3,6 +3,7 @@ body
     opacity: 0;
     visibility: hidden;
     transition: all .4s;
+    
 
     &.is-visible
     {
@@ -22,6 +23,11 @@ body
     };
 }
 
+// .swiper-slide img 
+// {
+//     border: 1px $colorBg2 solid;
+// }
+
 .mb-custom-p
 {
     //margin-bottom: 100vh;
@@ -35,7 +41,7 @@ section
 section.section0,
 section.section10
 {
-    height: 100vh;
+    //height: 100vh;
 }
 
 // section.section1
@@ -102,28 +108,21 @@ section.section10 .textbox
 //HERO
 #swiper-slide-00
 {
-    background: #3a3a3a;
+    //background: white;
 
-    // @include breakpoint(min, medium) {
-    //     background-position: center;
-    // }; 
+    
 }
 
 //FOULE
 #swiper-slide-01
 {
-    background-color: rgb(131, 131, 131);
-
-    // @include breakpoint(min, medium) {
-    //     background-position: center;
-    // }; 
+    background: transparent;
 }
 
 // MSG ANDREOLI
 #swiper-slide-02
 {
-    // background-image:url('../img/this/ski_3.jpg');
-    background-color: rgb(131, 131, 131);
+    background: transparent;
     background-position: 70% center;
 
     @include breakpoint(min, medium) {
@@ -134,7 +133,7 @@ section.section10 .textbox
 //TETE
 #swiper-slide-03
 {
-    background-color: rgb(174, 157, 157);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center;
@@ -144,8 +143,7 @@ section.section10 .textbox
 //MSG PAREIN 
 #swiper-slide-04
 {
-    // background-image:url('../img/this/ski_5.jpg');
-    background-color: rgb(174, 157, 157);
+    background: transparent;
     background-position: 35% center;
 
     @include breakpoint(min, medium) {
@@ -156,7 +154,7 @@ section.section10 .textbox
 //MUSEE
 #swiper-slide-05
 {
-    background-color: rgb(120, 121, 131);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center;
@@ -166,7 +164,7 @@ section.section10 .textbox
 //TABLE
 #swiper-slide-06
 {
-    background-color: rgb(120, 137, 128);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center;
@@ -176,7 +174,7 @@ section.section10 .textbox
 //MSG ANDREOLI 2
 #swiper-slide-07
 {
-    background-color: rgb(120, 137, 128);
+    background: transparent;
 
     @include breakpoint(min, medium) {
         background-position: center;
@@ -186,7 +184,7 @@ section.section10 .textbox
 //MSG TATONE
 #swiper-slide-08
 {
-    background-color: rgb(120, 137, 128);
+    background: transparent;
 
     @include breakpoint(min, medium) {
         background-position: center;
@@ -196,8 +194,7 @@ section.section10 .textbox
 //MSG ANDREOLI 3
 #swiper-slide-09
 {
-    // background-image:url('../img/this/ski_10.jpg');
-    background-color: rgb(120, 137, 128);
+    background: transparent;
     background-position: 35% center;
 
     @include breakpoint(min, medium) {
@@ -208,7 +205,7 @@ section.section10 .textbox
 //AMIT IN
 #swiper-slide-10
 {
-    background-color: rgb(174, 157, 157);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center top;
@@ -218,7 +215,7 @@ section.section10 .textbox
 //MSG TATONE 2
 #swiper-slide-11
 {
-    background-color: rgb(120, 137, 128);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center;
@@ -227,7 +224,7 @@ section.section10 .textbox
 
 #swiper-slide-13, #swiper-slide-21
 {
-    background-color: rgb(32, 33, 36);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center;
@@ -239,7 +236,7 @@ section.section10 .textbox
 //DIALOG
 #swiper-slide-14
 {
-    background-color: rgb(174, 157, 157);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center top;
@@ -249,7 +246,7 @@ section.section10 .textbox
 //POINTE DES PIEDS
 #swiper-slide-20
 {
-    background-color: rgb(120, 137, 128);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center top;
@@ -259,7 +256,7 @@ section.section10 .textbox
 //3 GUYS
 #swiper-slide-12
 {
-    background-color: rgb(162, 157, 164);
+    background: transparent;
 
     // @include breakpoint(min, medium) {
     //     background-position: center top;

@@ -1,5 +1,10 @@
 @charset "UTF-8";  
 
+$color: #29FDC1;
+$colorBg: #191A1A;
+$colorBg2: #707070;
+$colorBg3: #252626;
+
 //=====================================================================//
 // MIXINS
 //=====================================================================//
@@ -32,7 +37,7 @@
 //@import "timeline"; 
 @import "fonts"; 
 @import "header"; 
-// @import "scroller"; 
+@import "scroller"; 
 //@import "animations";
 @import "elements";
 

@@ -1,3 +1,41 @@
+@font-face {
+    font-family: 'blickregular';
+    src: url('../fonts/code-next_regular-webfont.woff2') format('woff2'),
+         url('../fonts/code-next_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blickextrabold';
+    src: url('../fonts/code-next_extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/code-next_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.font-sans
+{
+    font-family: 'blickextrabold', sans-serif !important;
+}
+
+.font-sans-2
+{
+    font-family: Inter, sans-serif !important;
+}
+
+.border-custom
+{
+    border-left: 15px $color solid !important;
+}
+
+.text-blanc-soft 
+{
+    color: #D0D0D0;
+}
+
 span.intro-auteur
 {
     display: block;
@@ -66,7 +104,13 @@ span.st
 
 h2 
 {
-    font-family: poppins;
+    // border-left: 20px $color solid;
+    // font-family: blickextrabold;
+    // color: white;
+    // font-size: 40px !important;
+    // line-height: 40px !important;
+    // padding-left: 15px;
+    // letter-spacing: -1px;
 }
 
 h3 
@@ -84,16 +128,26 @@ h3
     font-family: poppins;
 }
 
+
+.color 
+{
+    color: $color;
+}
 p
 {
-    font-family: Poppins;
-    font-weight: 500;
-    background: white;
-    color: black;
-    padding: 16px;
-    border: solid 4px black;
-    //overflow: visible;
-    // text-shadow: 0 2px 6px rgba(0, 0, 0, .6) !important;
+    font-family: Inter;
+    font-weight: 400;
+    background: #252626;
+    color: #D0D0D0;
+    padding: 30px;
+
+    //line-height: 29px;
+    border-radius: 30px;
+
+    @include breakpoint(max, 400px) {
+        padding: 15px;
+    };
+ 
 
     &.is-chat
     {
